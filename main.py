@@ -10,7 +10,6 @@ import notification_tools
 
 # constants
 FORUM_URL: str = 'https://www.mountainproject.com/forum/103989416/for-sale-for-free-want-to-buy'
-EMAIL_ADDR: str = 'stevendevan12@gmail.com'
 POST_KEYWORDS: List[str] = ['cam', '45', '45.5', '46', 'offset']
 MOST_RECENT_THREAD_ID_FILENAME = 'mpalerts_most_recent_thread_id.txt'
 
