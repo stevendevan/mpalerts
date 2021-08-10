@@ -79,7 +79,7 @@ def find_new_sale_post_links_containing_keywords(html: str, keywords: List[str])
             thread_links.append(thread_link['href'])
 
     new_thread_links = []
-    new_most_recent_thread_id = 0
+    new_most_recent_thread_id = most_recent_thread_id
     for link in thread_links:
         # get all digits after "topic/" in the thread link
         thread_id = int(re.search(r'(?<=topic/)\d+', link)[0])  # first (and only?) match
