@@ -1,4 +1,6 @@
 secret_data.py
+*.log
+mpalerts_most_recent_thread_id.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
